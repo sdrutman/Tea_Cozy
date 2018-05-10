@@ -1,0 +1,39 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+
+
+/* Header */
+
+.logo {
+  display: flex;
+  height: 50px;
+  width: 120px;
+  margin: 10px 0 9px 10px
+}
+
+
+/* Mission Section */
+
+
+
+
+
+/* Featured Tea Section */
+
+
+
+
+/* Locations Section */
+
+
+
+/* Footer */
