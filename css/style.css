@@ -63,8 +63,34 @@ a {
 
 /* Featured Tea Section */
 
+.featured_tea {
+  display: flex;
+  width: 1000px;
+  height:730px;
+}
 
+.tea-title {
+  display: flex;
+  align-items: center;
+  width: 1000px;
 
+}
+
+.tea {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.text {
+  margin-top: 10px;
+  align-items: center;
+}
 
 /* Locations Section */
 
