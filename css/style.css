@@ -6,9 +6,8 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
-
-
 
 
 /* Header */
@@ -44,8 +43,22 @@ a {
 
 /* Mission Section */
 
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
+.our-mission.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
 
+.our-mission {
+  display: flex;
+  z-index: 1;
+}
 
 
 /* Featured Tea Section */
