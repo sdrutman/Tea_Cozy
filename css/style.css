@@ -64,15 +64,6 @@ a {
 }
 
 /* Featured Tea Section */
-/*
-.featured-tea {
-  display: flex;
-  width: 1000px;
-  height:730px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}*/
 
 .text {
   align-items: center;
@@ -89,9 +80,68 @@ a {
   margin: 10px;
 }
 
-
 /* Locations Section */
 
+.loc-parent {
+  display: flex;
+  align-item: flex-start;
+  width: 1150px;
+  padding: 0 80px;
+  padding: 0 auto;
+}
 
+h2 {
+  text-align: center;
+}
+
+.locations {
+  background-image:
+  url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: 1300px;
+  width: 1300px;
+  height: 620px;
+  padding-top: 20px;
+}
+
+.loc-child1 {
+  flex: 1;
+  background-color: black;
+  padding: 15px 15px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 2;
+  opacity: 1;
+}
+
+.loc-child2 {
+  flex: 1;
+  background-color: black;
+  padding: 15px 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 2;
+  opacity: 1;
+}
+
+.loc-child3 {
+  flex: 1;
+  background-color: black;
+  padding: 15px 15px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 2;
+  opacity: 1;
+}
 
 /* Footer */
+
+footer {
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
